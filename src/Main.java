@@ -41,7 +41,7 @@ public class Main {
             }
             System.out.println("Here comes the list of salaries after tax reduction. (The tax rate is 30 %) ");
             for (i = 0; i < employeesArraySize; i++) {
-                System.out.println(salaryList[i]);
+                System.out.println((i+1) + ". " + salaryList[i]);
             }
         }
     }
